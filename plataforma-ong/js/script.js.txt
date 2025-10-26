@@ -1,0 +1,2 @@
+// script.js
+console.log("JS da plataforma ONG carregado!");
