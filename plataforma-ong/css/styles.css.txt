@@ -1,0 +1,144 @@
+/* ======================
+GRID E CONTAINERS
+====================== */
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: var(--esp-16);
+  padding: var(--esp16);
+}
+
+/* ======================
+CARDS
+====================== */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: var(--esp-16);
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* ======================
+BOTÕES
+====================== */
+button {
+  background-color: var(--cor-secundaria);
+  color: #fff;
+  padding: var(--esp-8) var(--esp-16);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #1c5980;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* ======================
+FORMULÁRIOS
+====================== */
+input, select, textarea {
+  width: 100%;
+  padding: var(--esp-8);
+  margin-bottom: var(--esp-16);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: var(--cor-secundaria);
+  outline: none;
+}
+
+/* ======================
+MENU DE NAVEGAÇÃO
+====================== */
+nav {
+  background-color: var(--cor-primaria);
+  padding: var(--esp-16);
+}
+
+nav ul {
+  display: flex;
+  gap: var(--esp-16);
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li a {
+  color: #fff;
+  font-weight: bold;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--cor-primaria);
+  padding: var(--esp-8);
+  flex-direction: column;
+  min-width: 150px;
+  border-radius: 4px;
+}
+
+nav ul li:hover > ul {
+  display: flex;
+}
+
+nav ul ul li {
+  margin: 0;
+}
+
+.menu-hamburguer {
+  display: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+/* ======================
+RESPONSIVIDADE
+====================== */
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    gap: var(--esp-8);
+  }
+
+  nav ul.active {
+    display: flex;
+  }
+
+  .menu-hamburguer {
+    display: block;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    font-size: var(--font-pequeno);
+  }
+}
