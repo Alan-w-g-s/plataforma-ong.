@@ -1,0 +1,32 @@
+<header>
+  <h1>Projetos Sociais</h1>
+</header>
+
+<main>
+  <section id="projetos">
+    <article>
+      <h2>Projeto Esperança</h2>
+      <img src="imagens/projeto1.jpg" alt="Imagem do Projeto Esperança">
+      <p>Atuação com crianças em situação de vulnerabilidade, oferecendo reforço escolar.</p>
+    </article>
+
+    <article>
+      <h2>Projeto Verde Vivo</h2>
+      <img src="imagens/doacoes.jpg" alt="Imagem do Projeto Verde Vivo">
+      <p>Iniciativa de reflorestamento urbano e conscientização ambiental.</p>
+    </article>
+  </section>
+
+  <section id="como-participar">
+    <h2>Como Participar</h2>
+    <p>Seja voluntário ou faça uma doação online e contribua com nossos projetos sociais.</p>
+    <ul>
+      <li><a href="cadastro.html">Cadastre-se como voluntário</a></li>
+      <li><a href="#">Doe agora</a></li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>Transparência e compromisso com a comunidade.</p>
+</footer>

@@ -1,0 +1,39 @@
+<header>
+  <img src="imagens/logo.png" alt="Logo da ONG">
+  <nav>
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="projetos.html">Projetos</a></li>
+      <li><a href="cadastro.html">Cadastro</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="sobre">
+    <h1>Quem Somos</h1>
+    <p>Nossa ONG atua em projetos sociais voltados à educação, saúde e meio ambiente...</p>
+  </section>
+
+  <section id="valores">
+    <h2>Missão, Visão e Valores</h2>
+    <ul>
+      <li><strong>Missão:</strong> Promover inclusão e desenvolvimento social.</li>
+      <li><strong>Visão:</strong> Ser referência em transformação comunitária.</li>
+      <li><strong>Valores:</strong> Transparência, Solidariedade e Sustentabilidade.</li>
+    </ul>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <address>
+      <p>Email: contato@ongexemplo.org</p>
+      <p>Telefone: (11) 99999-9999</p>
+      <p>Endereço: Rua da Esperança, 123 - São Paulo/SP</p>
+    </address>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 ONG Exemplo. Todos os direitos reservados.</p>
+</footer>
