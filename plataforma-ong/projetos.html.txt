@@ -30,3 +30,8 @@
 <footer>
   <p>Transparência e compromisso com a comunidade.</p>
 </footer>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
+
