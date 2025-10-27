@@ -44,3 +44,7 @@
 <footer>
   <p>&copy; 2025 ONG Exemplo</p>
 </footer>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
