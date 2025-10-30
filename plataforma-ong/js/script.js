@@ -24,10 +24,7 @@ function mascaraCEP(cep) {
         .replace(/(\d{5})(\d)/, '$1-$2');
 }
 
-// Adiciona evento para as máscaras
-window.addEventListener('DOMContentLoaded', () => {
-    const cpfInput = document.getElementById('cpf');
-    // Adiciona evento para as máscaras e validações
+// Adiciona evento para as máscaras e validações
 window.addEventListener('DOMContentLoaded', () => {
     const cpfInput = document.getElementById('cpf');
     const telefoneInput = document.getElementById('telefone');
@@ -92,5 +89,4 @@ window.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
-
 
