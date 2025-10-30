@@ -1,6 +1,6 @@
 # Plataforma ONG — Cadastro de Voluntários
 
-**Autor:** ALAN SILVA 
+**Autor:** [ALAN SILVA] 
 **Disciplina:** Desenvolvimento Web — Entrega IV  
 **Ano:** 2025
 
@@ -45,5 +45,6 @@ Consolidar práticas profissionais: **versionamento (Git/GitHub)**, **acessibili
 ---
 
 ## Estrutura do Projeto
+
 
 
