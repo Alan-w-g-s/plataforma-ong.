@@ -1,5 +1,8 @@
 # Plataforma ONG — Cadastro de Voluntários
 
+🔗 Acesse o site: [Clique aqui](https://alan-w-g-s.github.io/plataforma-ong/)
+
+
 **Autor:** [ALAN SILVA]  
 **Disciplina:** Desenvolvimento Web — Entrega IV  
 **Ano:** 2025
@@ -45,5 +48,6 @@ Consolidar práticas profissionais: **versionamento (Git/GitHub)**, **acessibili
 ---
 
 ## Estrutura do Projeto
+
 
 
